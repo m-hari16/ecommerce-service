@@ -4,11 +4,12 @@ app_information service endpoint:
 
 
 user service endpoint:
+- register for user & admin
 - login
 - reset password
 - update profil
 - get detail profil
-- update toko
+- update toko only for admin
 
 
 order service endpoint :
