@@ -1,0 +1,12 @@
+user/.env
+user/go.sum
+user/go.mod
+product/.env
+product/go.sum
+product/go.mod
+order/.env
+order/go.sum
+order/go.mod
+app_information/.env
+app_information/go.sum
+app_information/go.mod
