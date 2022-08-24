@@ -1,0 +1,93 @@
+service table schema :
+app_information :
+	tbl_shop_information:
+	- id
+	- name
+	- logo
+	- address
+	- created_at
+	- updated_at
+	- deleted_at 
+
+user :
+	tbl_user_auth: 
+	- id
+	- user_id
+	- email
+	- password
+	- is_active
+	- last_login
+	- created_at
+	- updated_at
+	- deleted_at
+
+
+	tbl_user:
+	- id
+	- name
+	- email
+	- no_hp
+	- address
+	- is_admin
+	- avatar
+	- created_at
+	- updated_at
+	- deleted_at 
+
+	
+product :
+	tbl_user ( slave ) :
+	- id
+	- user_id
+	- name
+	- address
+	- telp
+	- created_at
+	- updated_at
+	- deleted_at
+
+	tbl_product:
+	- id
+	- user_id
+	- title
+	- description
+	- price
+	- quantity
+	- created_at
+	- updated_at
+	- deleted_at
+	
+order :
+	tbl_user ( slave ) :
+	- id
+	- user_id
+	- name
+	- address
+	- telp
+	- created_at
+	- updated_at
+	- deleted_at
+	
+	tbl_product ( slave ) :
+	- id
+	- product_id
+	- title
+	- description
+	- created_at
+	- updated_at
+	- deleted_at
+
+	tbl_order:
+	- id
+	- user_id
+	- product_id
+	- quantity
+	- price
+	- amount
+	- address
+	- status_order
+	- created_at
+	- updated_at
+	- deleted_at
+
+	

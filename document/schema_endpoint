@@ -1,0 +1,25 @@
+app_information service endpoint:
+- update shop
+- show shop
+
+
+user service endpoint:
+- login
+- reset password
+- update profil
+- get detail profil
+- update toko
+
+
+order service endpoint :
+- store order
+- get order
+- show order
+- update order ( pending payment, on packing, on delivery, done, failed, refund )
+
+
+product service endpoint :
+- get product
+- show product
+- update product
+
