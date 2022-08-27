@@ -3,7 +3,7 @@ package app
 import (
 	"context"
 	"fmt"
-	"github.com/milisecond/ecommerce-service/tree/main/user/helper"
+	"github.com/milisecond/ecommerce-service/helper"
 	"os"
 	"time"
 
